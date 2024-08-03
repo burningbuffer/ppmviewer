@@ -7,7 +7,6 @@ typedef struct
     int g;
     int b;
     int a;
-
 } color;
 
 #endif 

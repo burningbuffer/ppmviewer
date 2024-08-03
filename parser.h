@@ -4,7 +4,8 @@
 #include <string.h>
 #include "color.h"
 
-typedef struct {
+typedef struct 
+{
     char type[2];
     unsigned int width;
     unsigned int height;
