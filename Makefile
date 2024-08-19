@@ -4,6 +4,3 @@ PKG_CONFIG_FLAGS = `pkg-config --cflags --libs gtk+-3.0 cairo`
 
 build:
 	gcc ./*.c $(CFLAGS) $(PKG_CONFIG_FLAGS) -o ppmviewer
-
-run:
-	./ppmviewer
